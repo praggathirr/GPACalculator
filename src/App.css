@@ -20,7 +20,7 @@ body {
 	flex-direction: column;
 	width: 60rem;
 	margin: 5rem auto;
-	margin-bottom: 2rem !important;
+	margin-bottom: 0 !important;
 	border-radius: 15px;
 	padding: 1.6rem;
 }
@@ -28,6 +28,7 @@ body {
 .semester-container {
 	background-color: white;
 	border-radius: 10px;
+	margin-bottom: 2rem;
 }
 
 .semester-heading {
@@ -117,6 +118,24 @@ body {
 	margin-left: 0.5rem;
 }
 
+.sem-gpa-div {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+#sem-gpa {
+	border: 0.2rem solid #096369;
+	background-color: #26c0ab;
+	padding: 3rem;
+	border-radius: 2rem;
+	font-size: 3rem;
+	margin-bottom: 1rem;
+	margin-top: 1rem;
+	color: white;
+	font-weight: bold;
+}
+
 #input-container {
 	display: flex;
 	justify-content: center;
@@ -130,4 +149,6 @@ body {
 	padding: 0.7rem;
 	font-size: 1rem;
 	font-weight: bold;
+	margin-bottom: 2rem;
+	margin-right: 1rem;
 }

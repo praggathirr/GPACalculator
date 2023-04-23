@@ -1,13 +1,17 @@
 import './App.css';
-import React from 'react';
+import React, { useState } from 'react';
 import Header from './components/Header';
 import MainContainer from './components/MainContainer';
+import { CalculatorContext } from './context/CalculatorContext';
+
 function App() {
+	// const [ termObj, setTermObj ] = useState([]);
+
 	return (
-		<React.Fragment>
+		<CalculatorContext.Provider>
 			<Header />
 			<MainContainer />
-		</React.Fragment>
+		</CalculatorContext.Provider>
 	);
 }
 
